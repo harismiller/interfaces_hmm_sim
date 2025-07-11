@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/AgentFail.msg"
   "msg/TaskFail.msg"
   "msg/LimitedZone.msg"
+  "msg/AgentGoTo.msg"
   DEPENDENCIES geometry_msgs
 )
 
